@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(61, 61, 61);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+p{
+    text-align: justify;
+    color: aliceblue;
+}
+a{
+    color: rgb(0, 67, 252);
+}

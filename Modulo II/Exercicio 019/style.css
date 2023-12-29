@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*
+    em HTMl é id= em CSS é #
+    o ID é case sensitive
+    ID é único
+
+    em HTML é class= em CSS é .
+    Classe pode ser utilizada em vários elementos
+
+    O W3C define que não é correto utilizar o mesmo ID em outro lugar (outro h1 como principal por exemplo)
+
+    O ID sobrepõe as configurações de classe
+*/
+
+body {
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: aquamarine;
+    color: white;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+.basico {
+    color: green;
+    font-weight: lighter;
+}
+
+.intermediario {
+    color: yellow;
+    font-weight: 400;
+}
+
+.avancado {
+    color: red;
+}
+
+.destaque {
+    background-color: rgba(128, 128, 35, 0.4);
+}

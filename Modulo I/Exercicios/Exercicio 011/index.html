@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+
+    <p>
+        Trabalhando com imagens que se ajustam ao dispositivo
+    </p>
+
+    <picture>
+        <source media="(max-width: 480px)" srcset="imagens/size1.jpg" type="image/jpeg">
+        <source media="(max-width: 800px)" srcset="imagens/size2.jpg" type="image/jpeg">
+        <source media="(min-width: 801px)" srcset="imagens/size3.jpg" type="image/jpeg">
+        <img src="imagens/Size3.jpg" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+
+    <audio src="media/For Time To Disappear - Go By Ocean _ Ryan McCaffrey.mp3" controls autoplay></audio>
+
+    
+
+</body>
+</html>
+

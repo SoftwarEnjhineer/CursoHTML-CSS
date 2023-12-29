@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixa / Box Model</title>
+    <!-- 
+        Tudo que é exibido é em formato de caixa que podem estar uma dentro da outra.
+        quando estou nesse formato um dentro do outro é usado o termo aninhamento. 
+    -->
+    <style>
+        h1 {
+            background-color: grey;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            display: block;
+
+            /* margin: auto; Para centralizar o bloco */
+            
+            /* 
+            Shorthands
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkblue;
+
+            border: 10px solid darkblue
+            */
+            
+            /*
+            cima, direita, embaixo, esquerda
+            padding: 10px 10px 10px 10px;
+
+            Caso todas tenham o mesmo tamanho é possível abreviar assim
+            padding: 10px;
+
+            Cima e baixo fica igual esquerda e direita ficam igual
+            padding: 10px 20px;
+
+            Esses comandos servem para o margin
+
+            margin: 10px auto 10px auto;
+            */
+
+            margin: 20px auto 20px auto;
+
+            /* display: inline pode mudar a propriedade */
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>
+        Parágrafos também são exemplos de box-level mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.
+    </p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com vídeos</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+    <video width="560" poster="img/thumbvideo.jpg" controls autoplay loop>
+    <!--Colocar os formatos para rodar em diferentes navegadores-->
+    <source src="midia/video.mp4" type="video/mp4">
+    <source src="video" type="video/mp4">
+    <source src="video" type="video/mp4">
+    <source src="video" type="video/mp4">
+    <p id="paragrafo">1</p>
+    </video>
+
+    <p>Incorporando vídeos no site, para que a hospedagem seja externa</p>
+    <p>No caso do YouTube ele fornece o código para incorporar de maneira automática</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=mIyInEx1sh7UKgGT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    
+</body>
+</html>
