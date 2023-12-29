@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque veniam earum maxime, tempora quibusdam iure velit sequi similique facere vel porro, inventore nemo perspiciatis accusamus aperiam modi corrupti explicabo esse!</p>
+
+    <iframe src="paginas-extras/pagina4.html" frameborder="0" sandbox="sandbox" referrerpolicy="no-referrer">
+        Seu navegador não é compatível com...
+    </iframe>
+
+    <iframe src="paginas-extras/pagina4.html" frameborder="0" sandbox="allow-same-origin allow-forms, allow-scripts" referrerpolicy="no-referrer">
+        Seu navegador não é compatível com...
+    </iframe>
+
+    <!-- Dessa forma é permitido a execução de scripts pelo site terceiro importado -->
+    <iframe src="paginas-extras/pagina5.html"></iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quod voluptas blanditiis quibusdam sint quas aperiam quo, sed, vitae, reprehenderit officia consequuntur? Voluptas enim officiis error fugiat, eius soluta deserunt?</p>
+</body>
+</html>
