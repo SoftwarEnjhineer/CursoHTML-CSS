@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form id="meuFormulario" action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="range">Número</label>
+            <input type="range" name="range" id="irange" min="0" max="10" value="5" oninput="atualizarValor()">
+            <output id="ival">5</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar" onclick="calcularSoma()">
+            <input type="reset" value="Limpar">
+        </p>
+        <!-- 
+            Ao clicar em enviar, a função calcularSoma() será chamada para calcular e enviar a soma.
+        -->
+
+        <!-- Script JavaScript -->
+        <script>
+            function atualizarValor() {
+                // Atualiza o valor exibido conforme o input range
+                document.getElementById('ival').innerHTML = Number(document.getElementById('irange').value);
+            }
+
+        
+        </script>
+    </form>
+</body>
+</html>
